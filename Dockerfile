@@ -5,7 +5,7 @@ FROM centos:7
 MAINTAINER Team Green <green@qbic.de>
 
 # Set environment variable to data folder
-WORKDIR DATA_DIR=/data
+WORKDIR /data
 
 # Update OS and install wget and java
 RUN yum -y update
